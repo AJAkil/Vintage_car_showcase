@@ -2,5 +2,60 @@
 
 
 {% block content %}
-<h1> THIS IS THE HOME PAGE </H1>
+<section id="top_pics" class="py-5">
+    <div class="container">
+      <h3 class="text-center mb-3">Top Picks</h3>
+      <hr>
+      <div class="row">
+            <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card car-preview">
+                <img class="card-img-top" src="#">
+              <div class="card-body">
+                <div class="listing-heading text-center">
+                  <h4 class="text-primary">Bently</h4>
+                  <p>
+                    <i class="fas fa-map-marker text-secondary"></i>
+                    wtf
+                    </p>
+                </div>
+                <hr>
+                <div class="row py-2 text-secondary">
+                  <div class="col-6">
+                    <h5> description of car</h5>
+                </div>
+                
+                <hr>
+                <a href="#" class="btn btn-primary btn-block stretched-link">See More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section id="our_attributes">
+    <hr>
+    <h2 class="text-center light"> What we are proud of </h2>
+    <div class="row">
+        <div class="col-md-4">
+        <img src="#" class="feature-img" alt="Satisfied Customers">
+        <h3 class="text-center" > 1000+ </h3>
+        <p class="text-center" > H&D Satisfied Customers</p>
+        </div>
+
+         <div class="col-md-4">
+        <img src="#" class="feature-img center-block" alt="Satisfied Customers">
+        <h3 class="text-center" > 5+ </h3>
+        <p class="text-center" > Years Of Unparallel Services</p>
+        </div>
+
+         <div class="col-md-4">
+        <img src="#" class="feature-img" alt="Satisfied Customers">
+        <h3 class="text-center" > 300+ </h3>
+        <p class="text-center" > Collection Of Vintage Cars</p>
+        </div>
+    </div>
+</section>
+
+
 {% endblock  %}
